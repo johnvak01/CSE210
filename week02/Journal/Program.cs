@@ -1,7 +1,7 @@
 /*
 Austin Hutchinson
 CSE210
-Extra Credit: added a Streak Counter, resetting if you miss a day and displaying as part of the program.
+Extra Credit: added a Streak Counter, resetting if you miss a day and displaying as part of the program. it is saved as part of a journal file
 */
 using System;
 using System.Runtime.InteropServices;
