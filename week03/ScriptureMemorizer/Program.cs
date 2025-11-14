@@ -10,7 +10,8 @@ class Program
     {
         Console.WriteLine("Hello World! This is the ScriptureMemorizer Project.");
         // create base scripture
-        Scripture newScripture = new Scripture("Mosiah 3:7","And lo, he shall suffer temptations, and pain of body, hunger, thirst, and fatigue, even more than man can suffer, except it be unto death; for behold, blood cometh from every pore, so great shall be his anguish for the wickedness and the abominations of his people.");
+        Reference newReference = new Reference("Mosiah", 3, 7);
+        Scripture newScripture = new Scripture(newReference,"And lo, he shall suffer temptations, and pain of body, hunger, thirst, and fatigue, even more than man can suffer, except it be unto death; for behold, blood cometh from every pore, so great shall be his anguish for the wickedness and the abominations of his people.");
 
         // begin core loop
         string input = "";
