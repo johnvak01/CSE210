@@ -14,6 +14,6 @@ class Product{
         return (double)_quantity*_price;
     }
     public string Display(){
-        return $"{_productID}\t{_name}:\t{_quantity} x {_price}";
+        return $"{_productID}\t{_name}:\t{_quantity} x ${_price}";
     }
 }
