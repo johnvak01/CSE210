@@ -14,6 +14,7 @@ class Program
         // make videos
         Video video1 = new Video("Video 1", "John Doe", 300, [comment1, comment2, comment3]);
         Video video2 = new Video("Video 2", "Mario Rossi", 600, [comment4, comment5, comment6]);
+        Video video3 = new Video("Video 3", "Mario Mario", 900, [comment4, comment2, comment1]);
 
         // display
         Console.WriteLine(video1.DisplayVideo() + "\n" + video1.DisplayComments());
