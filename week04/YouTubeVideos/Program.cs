@@ -19,5 +19,6 @@ class Program
         // display
         Console.WriteLine(video1.DisplayVideo() + "\n" + video1.DisplayComments());
         Console.WriteLine(video2.DisplayVideo() + "\n" + video2.DisplayComments());
+        Console.WriteLine(video3.DisplayVideo() + "\n" + video3.DisplayComments());
     }
 }
