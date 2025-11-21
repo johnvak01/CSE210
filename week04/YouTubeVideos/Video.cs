@@ -11,7 +11,7 @@ public class Video{
         _comments = comments;
     }
     public string DisplayVideo(){
-        return $"{_title} - by: {_author}\n{_length}";
+        return $"{_title} - by: {_author}\nLength:\t{_length}s";
     }
     public string DisplayComments(){
         string output = "";
