@@ -2,7 +2,7 @@ using System.Runtime.CompilerServices;
 
 public class Square: Shape{
     private double _length;
-    public Square(double length):base(){
+    public Square(string color, double length):base(color){
         _length = length;
     }
     public override double GetArea(){

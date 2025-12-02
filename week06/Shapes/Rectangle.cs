@@ -1,7 +1,7 @@
 
 public class Rectangle: Shape{
     private double _length, _width;
-    public Rectangle(double length, double width):base(){
+    public Rectangle(string color, double length, double width):base(color){
         _length = length;
         _width = width;
     }
